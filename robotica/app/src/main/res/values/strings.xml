@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Olá Mundo</string>
+    <string name="msg_inicial">Olá Mundo!</string>
+    <string name="campoTexto_inicial">Digite o seu nome aqui</string>
+    <string name="txt_botao">Clique aqui</string>
+    <string name="msg_erro">Digite algo acima...</string>
+    <string name="msg_nome">Olá, %s</string>
+
+</resources>

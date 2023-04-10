@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="msg_inicial">Hello World!</string>
+    <string name="campoTexto_inicial">Type your name here</string>
+    <string name="txt_botao">Click here</string>
+    <string name="msg_erro">Type something above...</string>
+    <string name="msg_nome">Hello, %s</string>
+</resources>
