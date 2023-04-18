@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Configurar nome de usuário">
+        <EditTextPreference android:title="Nome de Usuário"
+            android:dialogTitle="Alterar Nome de Usuário"
+            android:dialogMessage="Digite seu nome de usuário"
+            android:positiveButtonText="Salvar"
+            android:negativeButtonText="Cancelar"
+            android:key="@string/preference_username" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="GERAL">
+
+
+        <Preference
+            android:key="preference"
+            android:summary="Summary..."
+            android:title="Basic..." />
+
+        <Preference
+            android:key="stylized"
+            android:summary="summary stylish..."
+            android:title="Stylish..." />
+
+        <Preference
+            android:icon="@android:drawable/ic_menu_camera"
+            android:key="icon"
+            android:summary="summary icon..."
+            android:title="Icon" />
+
+        <Preference
+            android:key="single_line_title"
+            android:summary="summary single line"
+            android:title="Single Line"
+            app:singleLineTitle="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="WIDGETS">
+
+        <CheckBoxPreference
+            android:key="checkbox"
+            android:summary="Summary Checkbox"
+            android:title="Checkbox" />
+
+        <DropDownPreference
+            android:entries="@array/estadosBrasil"
+            android:entryValues="@array/estadosBrasil"
+            android:key="dropdown"
+            android:title="Dropdown" />
+
+        <SeekBarPreference
+            android:defaultValue="5"
+            android:key="seekbar"
+            android:max="100"
+            android:title="Seekbar" />
+
+        <SwitchPreferenceCompat
+            android:key="switch"
+            android:summary="summary switch"
+            android:title="Switch" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="DIALOGS">
+        <EditTextPreference
+            android:dialogTitle="Titulo do Dialog"
+            android:key="edittext"
+            android:title="EditText Preference" />
+
+        <ListPreference
+            android:dialogTitle="Titulo do Dialog"
+            android:entries="@array/estadosBrasilPorExtenso"
+            android:entryValues="@array/estadosBrasil"
+            android:key="estado"
+            android:title="List Preference" />
+
+        <MultiSelectListPreference
+            android:dialogTitle="Titulo do Dialog"
+            android:entries="@array/estadosBrasilPorExtenso"
+            android:entryValues="@array/estadosBrasil"
+            android:key="multi_select_list"
+            android:summary="summary multi list"
+            android:title="Multi Select List" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

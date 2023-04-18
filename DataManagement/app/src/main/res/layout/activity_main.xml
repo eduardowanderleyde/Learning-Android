@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnPreferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shared Preferences - Game"
+        android:layout_margin="3dp"
+        android:textSize="24sp">
+    </Button>
+    <Button
+        android:id="@+id/btnPreferenceManual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preference Manual"
+        android:layout_margin="3dp"
+        android:textSize="24sp">
+    </Button>
+    <Button
+        android:id="@+id/btnPreferenceScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preference Screen"
+        android:layout_margin="3dp"
+        android:textSize="24sp">
+    </Button>
+    <Button
+        android:id="@+id/btnRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room"
+        android:layout_margin="3dp"
+        android:textSize="24sp">
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Nome de Usuário"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:textSize="32sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nomeUsuario"
+        android:textAlignment="center"
+        android:text="não definido"
+        android:layout_margin="3dp"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="High Score"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:textSize="32sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/highScore"
+        android:textAlignment="center"
+        android:text="0"
+        android:layout_margin="3dp"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Estado escolhido"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:textSize="32sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/estadoEscolhido"
+        android:textAlignment="center"
+        android:text="0"
+        android:layout_margin="3dp"
+        android:textSize="28sp"/>
+
+</LinearLayout>
