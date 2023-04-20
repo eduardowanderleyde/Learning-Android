@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/botaoPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Play"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/botaoPause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Pause"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/botaoStartService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Start Service"
+        android:visibility="gone"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/botaoStopService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Stop Service"
+        android:visibility="gone"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/botaoBindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Bind Service"
+        android:visibility="gone"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/botaoUnbindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Unbind Service"
+        android:visibility="gone"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/hashId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="uuid"
+        android:textSize="30sp" />
+
+</LinearLayout>
