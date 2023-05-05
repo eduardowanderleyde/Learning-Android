@@ -22,17 +22,4 @@ public class Conta {
         this.nomeCliente = nomeCliente;
         this.cpfCliente = cpfCliente;
     }
-
-    public void creditar(double valor) {
-        saldo = saldo + valor;
-    }
-
-    public void transferir(Conta c, double v) {
-        this.debitar(v);
-        c.creditar(v);
-    }
-
-    public void debitar(double valor) {
-        saldo = saldo - valor;
-    }
 }
